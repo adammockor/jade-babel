@@ -11,8 +11,7 @@
   },
   "scripts": {
     "build": "babel src --out-dir lib",
-    "test": "mocha test --compilers js:babel-core/register",
-    "postinstall": "babel src --out-dir lib"
+    "test": "mocha test --compilers js:babel-core/register"
   },
   "dependencies": {
     "babel-core": "^6.4.0"
