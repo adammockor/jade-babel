@@ -12,7 +12,7 @@
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "mocha test --compilers js:babel-core/register",
-    "postinstall": "npm run build"
+    "postinstall": "babel src --out-dir lib"
   },
   "dependencies": {
     "babel-core": "^6.4.0"
